@@ -7,3 +7,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/njbair/oh-my-zsh.git
+[submodule "irssi"]
+	path = irssi
+	url = git@github.com:njbair/irssi-config.git
