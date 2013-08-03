@@ -1,12 +1,12 @@
 [submodule "vim"]
 	path = vim
-	url = git://github.com/njbair/vim.git
+	url = https://github.com/njbair/vim.git
 [submodule "bash"]
 	path = bash
-	url = git://github.com/njbair/bash.git
+	url = https://github.com/njbair/bash.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git://github.com/njbair/oh-my-zsh.git
+	url = https://github.com/njbair/oh-my-zsh.git
 [submodule "irssi"]
 	path = irssi
-	url = git@github.com:njbair/irssi-config.git
+	url = https://github.com/njbair/irssi-config.git
