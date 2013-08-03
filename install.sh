@@ -3,7 +3,7 @@
 [[ $1 != "" ]] && target=$1 || target=~
 dotfiles_path=$target/dotfiles
 backup_path=$target/dotfiles_old
-files="bashrc bash vimrc vim zshrc oh-my-zsh irssi gitconfig"
+files="bashrc bash vimrc vim zshrc oh-my-zsh irssi gitconfig dircolors"
 
 echo -n "Backing up old dotfiles..."
 for file in $files; do
