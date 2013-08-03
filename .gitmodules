@@ -10,3 +10,6 @@
 [submodule "irssi"]
 	path = irssi
 	url = https://github.com/njbair/irssi-config.git
+[submodule "solarized"]
+	path = solarized
+	url = https://github.com/altercation/solarized.git
