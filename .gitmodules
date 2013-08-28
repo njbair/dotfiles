@@ -11,11 +11,11 @@
 	path = irssi
 	url = https://github.com/njbair/irssi-config.git
 [submodule "solarized"]
-	path = solarized
+	path = colors/solarized
 	url = https://github.com/altercation/solarized.git
 [submodule "dircolors-solarized"]
-	path = dircolors-solarized
+	path = colors/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
 [submodule "mc"]
-	path = mc
+	path = colors/mc
 	url = https://github.com/peel/mc.git
