@@ -5,3 +5,5 @@
 	email = njbair@gmail.com
 [push]
 	default = current
+[github]
+	user = njbair
