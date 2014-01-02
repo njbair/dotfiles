@@ -18,3 +18,6 @@ alias psx="ps aux | grep $1"
 # todo.txt aliases
 alias todo="todo.sh"
 alias t="todo.sh"
+
+# run grep through a less pipe with full color
+grepless () { grep --color=always "$@" | less }
