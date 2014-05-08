@@ -20,4 +20,4 @@ alias todo="todo.sh"
 alias t="todo.sh"
 
 # run grep through a less pipe with full color
-grepless () { grep --color=always "$@" | less }
+grepless () { grep --color=always "$@" | less; }
