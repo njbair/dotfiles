@@ -1,15 +1,15 @@
 [submodule "vim"]
 	path = vim
-	url = https://github.com/njbair/vim.git
+	url = git@github.com:njbair/vim.git
 [submodule "bash"]
 	path = bash
-	url = https://github.com/njbair/bash.git
+	url = git@github.com:njbair/bash.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = https://github.com/njbair/oh-my-zsh.git
+	url = git@github.com:njbair/oh-my-zsh.git
 [submodule "irssi"]
 	path = irssi
-	url = https://github.com/njbair/irssi-config.git
+	url = git@github.com:njbair/irssi-config.git
 [submodule "solarized"]
 	path = colors/solarized
 	url = https://github.com/altercation/solarized.git
