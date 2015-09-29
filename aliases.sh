@@ -1,17 +1,19 @@
 if [ "$UNAME" = "Darwin" ]; then
-    export LS_OPTS="-G"
+    LS_OPTS="-G"
+    export LS_OPTS
 elif [ "$UNAME" = "Linux" ]; then
-    export LS_OPTS="--color=auto --group-directories-first"
+    LS_OPTS="--color=auto --group-directories-first"
+    export LS_OPTS
 else
     export LS_OPTS=""
 fi
 
 # file listings should be colored, classified, grouped, & human-readable
-alias ls='ls -Fh $LS_OPTS'
-alias ll='ls -l'
-alias lla='ls -la'
-alias la='ls -lA'
-alias l='ls -CF'
+alias ls="ls -Fh $LS_OPTS"
+alias ll="ls -l"
+alias lla="ls -la"
+alias la="ls -lA"
+alias l="ls -CF"
 
 # disable word-wrapping in less
 alias less='less -S'
