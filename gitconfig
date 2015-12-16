@@ -7,3 +7,5 @@
 	default = current
 [github]
 	user = njbair
+[core]
+	trustctime = false
