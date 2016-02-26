@@ -1,0 +1,5 @@
+irssi/away.log
+irssi/sasl.auth
+irssi/*.pem
+.netrwhist
+*.swp
