@@ -2,7 +2,7 @@ if ( command -v uname >/dev/null 2>&1 ); then
     export UNAME="$(uname)"
 fi
 
-export MC_SKIN="$HOME/.mc/solarized.ini"
+export MC_SKIN="$HOME/dotfiles/colors/mc-solarized/solarized.ini"
 
 command -v pygmentize >/dev/null 2>&1 &&
     export LESS='-R' &&

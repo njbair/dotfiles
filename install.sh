@@ -14,7 +14,6 @@ symlinks=(
     "${dotfiles_path}/dircolors         ${dest}/.dircolors"
     "${dotfiles_path}/mc                ${dest}/.mc"
     "${dotfiles_path}/tmux.conf         ${dest}/.tmux.conf"
-    "${dotfiles_path}/njbair.zsh-theme  ${dest}/.oh-my-zsh/themes/njbair.zsh-theme"
 )
 
 
