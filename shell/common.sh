@@ -10,7 +10,7 @@ command -v pygmentize >/dev/null 2>&1 &&
 
 export GOPATH=$HOME/gocode/
 
-eval `dircolors ~/.dircolors`
+eval `dircolors ~/dotfiles/colors/dircolors-solarized/dircolors.ansi-universal`
 
 PATH=/usr/games:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/njbair/bin:/home/njbair/.gem/ruby/1.9.1/bin:/home/njbair/gocode/bin
 export PATH

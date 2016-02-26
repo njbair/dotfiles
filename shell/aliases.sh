@@ -1,3 +1,6 @@
+if ( command -v uname >/dev/null 2>&1 ); then
+    UNAME="$(uname)"
+fi
 if [ "$UNAME" = "Darwin" ]; then
     LS_OPTS="-G"
     export LS_OPTS
