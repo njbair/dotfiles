@@ -6,9 +6,9 @@ GIT_PROMPT_SUFFIX="%{$reset_color%}]%{$reset_color%}"
 GIT_PROMPT_AHEAD="%{$fg[red]%}↑NUM%{$reset_color%}"
 GIT_PROMPT_BEHIND="%{$fg[cyan]%}↓NUM%{$reset_color%}"
 GIT_PROMPT_MERGING="%{$fg_bold[magenta]%}⇅%{$reset_color%}"
-GIT_PROMPT_UNTRACKED="%{$fg[red]%}u%{$reset_color%}"
-GIT_PROMPT_MODIFIED="%{$fg[yellow]%}m%{$reset_color%}"
-GIT_PROMPT_STAGED="%{$fg[green]%}s%{$reset_color%}"
+GIT_PROMPT_UNTRACKED="%{$fg[red]%}●%{$reset_color%}"
+GIT_PROMPT_MODIFIED="%{$fg[yellow]%}●%{$reset_color%}"
+GIT_PROMPT_STAGED="%{$fg[green]%}●%{$reset_color%}"
 
 # Show Git branch/tag, or name-rev if on detached head
 parse_git_branch() {
@@ -61,4 +61,4 @@ git_prompt_string() {
 }
 
 # Set the right-hand prompt
-RPS1='$(git_prompt_string)'
+RPROMPT='$(git_prompt_string)'
