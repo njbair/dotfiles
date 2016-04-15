@@ -18,12 +18,6 @@ symlinks=(
 
 
 
-# install oh-my-zsh
-if [[ -e $dest/.oh-my-zsh ]] || [[ -h $dest/.oh-my-zsh ]]; then
-    mv $dest/.oh-my-zsh $backup_path
-fi
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
 # backup existing configs & install new symlinks
 count=0
 while [ "x${symlinks[count]}" != "x" ]; do
