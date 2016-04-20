@@ -1,8 +1,8 @@
 autoload -Uz promptinit && promptinit
 autoload -Uz colors && colors
 
-source $HOME/dotfiles/zsh/aliases.zsh
-source $HOME/dotfiles/zsh/common.zsh
+source $HOME/dotfiles/shell/aliases.zsh
+source $HOME/dotfiles/shell/common.zsh
 source $HOME/dotfiles/zsh/git-prompt.zsh
 
 setopt hist_ignore_space
